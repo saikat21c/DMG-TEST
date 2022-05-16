@@ -1,0 +1,15 @@
+.containerWrap{
+    max-width: 1366px;
+    margin: 0 auto;
+}
+
+.d-flexCenter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.d-flexJustyfy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

@@ -1,0 +1,71 @@
+header{
+    background: #fff;
+    -webkit-box-shadow: 0px 1px 10px 0px rgba(189,189,189,1);
+    -moz-box-shadow: 0px 1px 10px 0px rgba(189,189,189,1);
+    box-shadow: 0px 1px 10px 0px rgba(189,189,189,1);
+    padding: 22px 0;
+}
+
+header .navLeft{
+    display: flex;
+    align-items: center;
+}
+
+header .navLeft .logoMob{
+    display: none;
+}
+
+header .navLeft a:first-child{
+    margin-right: 20px;
+}
+
+header .navCenter{
+    border-radius: 30px;
+    border: 1px solid #9C9D9D;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+}
+
+header .navCenter input{
+    border-radius: 30px;
+    min-width: 485px;
+}
+
+header .navRight ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+header .navRight ul li{
+    margin: 0 8px;
+    padding: 0 6px;
+}
+header .navRight ul li:last-child{
+    padding-right: 0;
+    margin-right: 0;
+}
+header .navRight ul li:last-child span{
+    display: block;
+    position: relative;
+}
+header .navRight ul li:last-child span::after{
+    position: absolute;
+    content: "";
+    top: -5px;
+    right: -5px;
+    width: 10px;
+    height: 10px;
+    background: #FFA500;
+    border: 2px solid #fff;
+    border-radius: 50%;
+}
+header .navRight ul li i{
+    display: flex;  
+    justify-content: center;
+    font-size: 116.6%;
+    font-style: italic;
+    font-weight: 700;
+    color: #9C9D9D;
+}

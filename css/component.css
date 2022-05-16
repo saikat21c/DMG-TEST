@@ -1,0 +1,23 @@
+.quantQrap{
+    display: flex;
+    align-items: center;
+}
+
+.quantQrap input,.quantQrap button{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: #000;
+}
+
+.quantQrap button{
+    border: 1px solid #9C9D9D;
+    font-size: 208.3%;
+    background: #fff;
+}
+
+.quantQrap input[type='text']{
+    font-size: 133.3%;
+    font-weight: bold;
+    background: #E0E0E0;
+}

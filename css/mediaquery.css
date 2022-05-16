@@ -1,0 +1,287 @@
+/* media query */
+
+@media screen and (max-width: 1400px){
+    .containerWrap{
+        padding: 0 40px;
+    }
+
+    
+}
+
+@media screen and (max-width: 1365px){
+
+    header .navCenter input{
+        min-width: 363px;   
+    }
+
+}
+
+
+@media screen and (max-width: 1199px){
+
+    .swiper .sliderItemWrap{
+        height: 200px;
+        padding: 20px 13px;
+    }
+
+    .swiper .sliderItem2,
+    .swiper .sliderItem3{
+        width: calc(100% - 118px);
+    }
+    
+    .sliderItem1 .tag{
+        left: 65px;
+    }
+
+    .sliderItem1 .tag img{
+        width: 34px;
+    }
+
+    .sliderItemWrap .sliderItem1{
+        padding-right: 35px;
+    }
+
+    .sliderItem1 img{
+        width: 80px;
+    }
+
+    .sliderItem2 h3{
+        font-size: 133.3%;
+    }
+
+    .swiper .sliderItem2 h4,.swiper .sliderItem2 .tyretype-wrap .tyretype-top span, 
+    .swiper .sliderItem2 .tyretype-wrap h5.tyretype-btm, 
+    .swiper .sliderItem2 h6{
+        font-size: 116.6%;
+    }
+
+    .product-row .tyretype-wrap{
+        width: 110px;
+    }
+
+    .product-row .btn-addtocart,.product-row .btn-notify{
+        font-size: 0;
+        min-width: 77px;
+        height: 40px;
+        background-position: 23px center;
+    }
+
+    .product-row .btn-notify{
+        background-position: 30px center;
+    }
+
+}
+
+@media screen and (max-width: 1023px){
+    h2{
+        font-size: 166.6%;
+    }
+    .containerWrap{
+        padding: 0 32px;
+    }
+
+    header .navCenter input{
+        min-width: 250px;   
+    }
+
+    header .navLeft .logoDesk{
+        display: none;
+    }
+
+    header .navLeft .logoMob{
+        display: block;
+    }
+
+    .selectWrap label{
+        font-size: 116.6%;
+    }
+
+    .swiper .sliderItem2 h3{
+        font-size: 133.3%;
+    }
+
+    .swiper .sliderItemWrap{
+        padding: 12px 16px;
+    }
+
+    .swiper .sliderItemWrap{
+        height: 235px;
+    }
+
+    .swiper .sliderItemWrap{
+        flex-direction: row;
+    }
+
+    .swiper .sliderItem1{
+        flex: 1;
+    }
+
+    .swiper .sliderItem3{
+        flex: 1 auto;
+    }
+
+    .btn-addtocart{
+        font-size: 116.6%;
+    }
+
+    .sliderItem1 .tag{
+        top: -6px;
+    }
+
+    .tyretype-wrap{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .tyretype-wrap .tyretype-top{
+        width: 45px;
+        text-align: center;
+    }
+
+    .tyretype-wrap .tyretype-btm{
+        padding-left: 15px;
+    }
+
+    .tyretype-wrap .tyretype-btm span{
+        display: block;
+    }
+
+    .tyretype-wrap,.sliderItem2 h6{
+        margin-top: 10px;
+    }
+
+    .proWrap{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .proWrap .product-row{
+        width: 49%;
+        flex-wrap: wrap;
+        padding: 20px 16px;
+    }
+    
+    .product-row h3{
+        order: 1;
+        width: 55% !important;
+    }
+
+    .product-row h4{
+        order: 2;
+        width: 45%;
+    }
+
+    .product-row .batch{
+        order: 3;
+        width: 14%;
+    }
+
+    .product-row .tyretype-wrap{
+        order: 4;
+        width: 35% !important;
+    }
+
+    .product-row  .tyretype-wrap  .tyretype-top{
+        width: 100%;
+    }
+    .product-row  .tyretype-wrap .tyretype-btm{
+        padding-left: 0;
+        width: 100%;
+    }
+
+    .product-row h5{
+        order: 5;
+        width: 15%;
+    }
+
+    .product-row h5 span{
+        display: block !important;
+        margin-left: 0 !important;
+    }
+
+    .product-row h6{
+        order: 6;
+        width: 28%;
+    }
+
+    .product-row h6 span{
+        margin-left: 0 !important;
+    }
+
+    .product-row .quantQrap{
+        order: 7;
+        width: 70%;
+        margin-top: 10px;
+    }
+
+    .product-row .btn-primary{
+        order: 8;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .containerWrap{
+        padding: 0 18px;
+    }
+
+    header .navCenter{
+        border: 0;
+    }
+
+    header .navCenter input{
+        display: none;
+    }
+
+    .filter-head{
+        display: none !important;
+    }
+
+    .navCenter{
+        flex-grow: 1;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .swiper .sliderItem1{
+        flex: 0;
+    }
+
+}
+
+@media screen and (max-width: 639px){
+
+    header .navRight ul li i{
+        display: none;
+    }
+
+    header .navRight ul li{
+        margin: 0 13px;
+    }
+
+    .sliderItem3 .btn-addtocart{
+        font-size: 0;
+        min-width: 77px;
+        height: 40px;
+        background-position: 23px center;
+    }
+
+    .proWrap .product-row{
+        width: 100%;
+    }
+
+    .product-row .btn-primary{
+        font-size: inherit;
+        background-position: 17px center;
+    }
+
+    .product-row .quantQrap{
+        width: 50%;
+    }
+
+    .fullBtnOutline{
+        font-size: 116.6%;
+    }
+}
